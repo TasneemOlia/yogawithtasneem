@@ -1,0 +1,246 @@
+body html {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  font-size: 80%;
+}
+
+#home_section {
+  background-color: rgb(166, 231, 241);
+  min-height: 600px;
+}
+
+#home_section .home_inner {
+  padding-top: 75px;
+  padding-bottom: 15px;
+}
+
+#home_section .carousel-inner .img_home_carousel {
+  background-color: rgba(245, 245, 245, 0);
+  text-align: center;
+}
+
+#home_section .home_carousel_caption {
+  font-family: Bradley Hand ITC Std;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 24px;
+  color: rgb(11, 117, 99);
+}
+
+#home_section .yogatips_hd {
+  font-family: Bradley Hand ITC Std;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 24px;
+  color: rgb(183, 30, 66);
+}
+
+#home_section .main_hd {
+  font-family: Bradley Hand ITC Std;
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(11, 117, 99);
+  font-size: 50px;
+}
+
+#home_section .first_line,
+#home_section .second_line {
+  font-size: 20px;
+  font-family: Calibri;
+  color: rgb(183, 30, 66);
+}
+
+#home_section .img_contact {
+  width: 10%;
+  position: center;
+}
+#home_section .contact_body {
+  font-family: Calibri;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 24px;
+  color: rgb(11, 117, 99);
+}
+
+#yogatips_section .yogatips_body {
+  font-family: Bradley Hand ITC Std;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(11, 117, 99);
+}
+
+#home_section .contact_body span {
+  font-family: Bradley Hand ITC Std;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(183, 30, 66);
+}
+
+#transform_section,
+#corp_yoga_section,
+#teach_section,
+#classes_section,
+#testimonials_section,
+#yogatips_section,
+#contact_section {
+  min-height: 600px;
+  background-color: rgb(209, 243, 240);
+  width: 100%;
+}
+
+#transform_section .transform_head,
+#corp_yoga_section .corp_yoga_head,
+#teach_section .teach_head,
+#classes_section .classes_head,
+#testimonials_section .testimonials_head,
+#yogatips_section .yogatips_head,
+#contact_section .contact_head {
+  font-family: Bradley Hand ITC Std;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 30px;
+  color: rgb(183, 30, 66);
+}
+
+#transform_section .img_transform,
+#corp_yoga_section .img_corp_yoga {
+  width: 100%;
+}
+
+#transform_section .transform_body,
+#corp_yoga_section .corp_yoga_body {
+  font-family: Calibri;
+  color: rgb(23, 162, 184);
+  font-size: 25px;
+}
+
+/*#yogatips_section .yogatips_list {
+  font-family: Calibri;
+  color: rgb(183, 30, 66);
+  font-size: 25px;
+}*/
+
+#yogatips_section .carousel-indicators > li,
+#yogatips_section .carousel-indicators > li.active {
+  font-family: Calibri;
+  color: rgb(183, 30, 66);
+  font-size: 15px;
+  text-indent: 0;
+  width: 250px;
+  height: 325px;
+}
+#yogatips_section .carousel-indicators > li {
+  background-color: rgba(245, 245, 245, 0);
+}
+
+#yogatips_section .carousel-indicators > li.active {
+  background-color: rgb(196, 238, 231) !important;
+}
+
+#transform_section .transform_list,
+#corp_yoga_section .corp_yoga_list {
+  list-style-type: disc;
+  overflow: hidden;
+}
+
+#teach_section .teach_card,
+#classes_section .classes_card,
+#teach_section .teach_details_card,
+#testimonials_section .profile_card,
+#testimonials_section .carousel_card,
+#yogatips_section .yogatips_card {
+  background-color: rgba(245, 245, 245, 0);
+  text-align: center;
+}
+
+#classes_section .classes_card {
+  width: 360px;
+}
+
+#teach_section .img_teach {
+  height: 100px;
+  width: 100px;
+}
+
+#classes_section .img_classes {
+  width: 330px;
+  height: auto;
+}
+
+#contact_section .img_contact {
+  width: 150px;
+  height: auto;
+  text-align: center;
+}
+
+#teach_section .teach_body,
+#classes_section .class_body,
+#contact_section .contact_body {
+  font-family: Ink Free;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(23, 162, 184);
+  text-align: center;
+  word-wrap: break-word;
+}
+
+#classes_section .class_body {
+  color: rgb(23, 162, 184);
+}
+
+#teach_section .teach_details {
+  font-family: Calibri;
+  font-style: italic;
+  font-size: 16px;
+  color: rgb(23, 162, 184);
+  text-align: center;
+  word-wrap: break-word;
+}
+
+#testimonials_section .profile_hd {
+  font-family: Bradley Hand ITC Std;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 25px;
+  color: rgb(183, 39, 66);
+}
+
+#testimonials_section .profile_body,
+#testimonials_section .carousel-inner .testimonials_body {
+  font-family: Calibri;
+  font-style: italic;
+  font-size: 20px;
+  color: rgb(23, 162, 184);
+  text-align: center;
+  word-wrap: break-word;
+  background-color: rgba(245, 245, 245, 0);
+  text-align: center;
+}
+
+#testimonials_section .testimonials_body span {
+  color: rgb(23, 162, 184);
+}
+
+#testimonials_section .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(183, 30, 66)' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+#testimonials_section .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(183, 30, 66)' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+#home_section .carousel-indicators > li {
+  background-color: rgb(11, 117, 99) !important;
+}
+
+#home_section .carousel-indicators > li.active {
+  background-color: rgb(3, 46, 39) !important;
+}
+
+#testimonials_section .carousel-indicators li {
+  background-color: rgb(183, 30, 66) !important;
+}
