@@ -1,0 +1,323 @@
+
+@font-face {
+  font-family: 'lemon_milkbold';
+  src: url('/fonts/lemonmilk-bold.woff') format('woff');
+  
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'lemon_milkbold_italic';
+  src: url('/fonts/lemonmilk-bolditalic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'lemon_milklight';
+  src: url('/fonts/lemonmilk-light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'lemon_milklight_italic';
+  src: url('/fonts/lemonmilk-lightitalic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'lemon_milkmedium';
+  src: url('/fonts/lemonmilk-medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'lemon_milkmedium_italic';
+  src: url('/fonts/lemonmilk-mediumitalic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'lemon_milkregular';
+  src: url('/fonts/lemonmilk-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'lemon_milkregular_italic';
+  src: url('/fonts/lemonmilk-regularitalic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+body html {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+/*#home_section {
+  min-height: 600px;
+}*/
+
+#img_home {
+  background-image: url('/images/home.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width : 100%;
+  height: auto;
+}
+
+#home_section .home_inner {
+  padding-top: 75px;
+  padding-bottom: 15px;
+}
+
+/*#home_section .carousel-inner .img_home_carousel {
+  background-color: rgba(245, 245, 245, 0);
+  text-align: center;
+}
+
+#transform_section .transform_carousel_caption {
+  font-family: 'lemon_milkbold_italic';
+  font-size: 24px;
+  color: rgb(11, 117, 99);
+}*/
+
+/*#home_section .yogatips_hd {
+  font-family: Lemon Milk;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 24px;
+  color: rgb(183, 30, 66);
+}
+
+#home_section .main_hd {
+  font-family: Lemon Milk;
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(11, 117, 99);
+  font-size: 50px;
+}
+
+#home_section .first_line,
+#home_section .second_line {
+  font-size: 20px;
+  font-family: Lemon Milk;
+  color: rgb(183, 30, 66);
+}
+
+#home_section .img_contact {
+  width: 10%;
+  position: center;
+}
+#home_section .contact_body {
+  font-family: Lemon Milk;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 24px;
+  color: rgb(11, 117, 99);
+}*/
+
+/*#yogatips_section .yogatips_body {
+  font-family: 'lemon_milkbold_italic';
+  font-size: 30px;
+  color: rgb(11, 117, 99);
+}
+
+#home_section .contact_body span {
+  font-family: Lemon Milk;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(183, 30, 66);
+}*/
+
+#transform_section,
+#corp_yoga_section,
+#teach_section,
+#classes_section,
+#testimonials_section,
+#yogatips_section,
+#contact_section {
+  min-height: auto;
+  width: 100%;
+}
+
+#corp_yoga_section,
+#classes_section,
+#yogatips_section {
+background-image: linear-gradient(rgb(225,203,193), rgb(255, 255, 255));
+}
+
+#transform_section,
+#teach_section,
+#testimonials_section,
+#contact_section {
+  background-image: linear-gradient( rgb(255, 255, 255),rgb(225,203,193));
+}
+
+#transform_section .transform_head,
+#corp_yoga_section .corp_yoga_head,
+#teach_section .teach_head,
+#classes_section .classes_head,
+#testimonials_section .profile_hd,
+#testimonials_section .testimonials_head,
+#yogatips_section .yogatips_head,
+#contact_section .contact_head {
+  font-family: 'lemon_milklight_italic';
+  font-size: 32px;
+  letter-spacing: 0.1em;
+  color: rgb(0, 0, 0);
+}
+
+ 
+#transform_section .carousel-inner{
+  min-height: auto;
+  min-width: 100%;
+
+}
+
+#transform_section .img_transform,
+#corp_yoga_section .img_corp_yoga {
+  width: 100%;
+}
+
+#transform_section .transform_body,
+#corp_yoga_section .corp_yoga_body {
+  font-family: 'lemon_milklight_italic';
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  color:rgb(0, 0, 0);
+
+}
+
+#yogatips_section  .carousel-indicators {
+  position: relative;
+}
+
+#yogatips_section .carousel-indicators > li,
+#yogatips_section .carousel-indicators > li.active {
+  font-family: 'lemon_milklight_italic';
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  color:rgb(0, 0, 0);
+  text-indent: 0;
+  width: auto;
+  height: auto;
+}
+#yogatips_section .carousel-indicators > li {
+  background-color: rgba(245, 245, 245, 0);
+}
+
+#yogatips_section .carousel-indicators > li.active {
+  background-color: rgb(225, 203, 193) !important;
+}
+
+#transform_section .transform_list,
+#corp_yoga_section .corp_yoga_list {
+  list-style-type: disc;
+  overflow: hidden;
+}
+
+#teach_section .teach_card,
+#classes_section .classes_card,
+#teach_section .teach_details_card,
+#testimonials_section .profile_card,
+#testimonials_section .carousel_card,
+#yogatips_section .yogatips_card {
+  background-color: rgba(245, 245, 245, 0);
+  text-align: center;
+}
+
+#classes_section .classes_card {
+  width: 360px;
+}
+
+#teach_section .img_teach {
+  height: 100px;
+  width: 100px;
+}
+
+#classes_section .img_classes {
+  width: 330px;
+  height: auto;
+}
+
+#contact_section .img_contact {
+  width: 150px;
+  height: auto;
+  text-align: center;
+}
+
+#teach_section .teach_card,
+#classes_section .classes_card,
+#teach_section .teach_details_card,
+#testimonials_section .profile_card,
+#testimonials_section .carousel_card,
+#yogatips_section .yogatips_card,
+#teach_section .teach_body,
+#teach_section .teach_details 
+#classes_section .class_body,
+#testimonials_section .profile_body,
+#testimonials_section .carousel-inner .testimonials_body 
+#contact_section .contact_body {
+  font-family: 'lemon_milklight_italic';
+  font-size: 12px;
+  letter-spacing: 0.1em;
+
+  color: rgb(0, 0, 0);
+  text-align: center;
+  word-wrap: break-word;
+}
+
+
+#teach_section .teach_details {
+  font-size: 10px;
+}
+
+#testimonials_section .profile_body,
+#testimonials_section .carousel-inner .testimonials_body {
+  background-color: rgba(245, 245, 245, 0);
+}
+
+#testimonials_section .testimonials_body span {
+  color: rgb(245, 157, 117);
+}
+
+#testimonials_section .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(245, 157, 117)' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+#testimonials_section .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(245, 157, 117)' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+#transform_section .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(245, 157, 117)' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+#transform_section .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(245, 157, 117)' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+/*#home_section .carousel-indicators > li {
+  background-color: rgb(11, 117, 99) !important;
+}
+
+#home_section .carousel-indicators > li.active {
+  background-color: rgb(3, 46, 39) !important;
+}*/
+
+#testimonials_section .carousel-indicators li {
+  background-color: rgb(245, 157, 117) !important;
+}
